@@ -1,17 +1,38 @@
 1. Explain Node and V8 in your own words ? 
-// Answer here...
+// Answer here... 
+    node is ues for sevsr-side web development. 
+    v8 is an open source runtime engine written in c++. 
+     Javascript and node is using v8 javascript runtime engine. The v8 engine takes your javascript code and convert into a low-level machine code which the computer can run easily.
 
 2. Explain steps in REPL(here) and command to start REPL ?
 // Answer here...
+  REPL is like browser console we can write javascript code in it.
+  we can run javascript code file by using 
+    ```js
+    $ node index.js
+    ```
+      1. open terminal
+      2. type node in terminal
+      ```
+      $ node
+      > console.log("Hello world")
+      ```
+      
 
 3. Run `index.js` in the same directory as script writer using `node FILE_NAME.js` and output result of console here.
-
+```
+hello world
+```
 4. Require fs module and read `theory.md` using fs.readFile method in index.js file.
-
+    done
 5. Explain Buffer and different methods to create a buffer ?
-
+  buffer is for storing row data is alocate the outside to v8.
+  ```js
+  var buffer = new Buffer("hello world"); 
+  ```
 6. What is blocking code ? How is it different from non-blocking/async codes ? Correct blocking code in index.js to run asynchronously ?
 // Answer here ...
+
 
 7. Request from browser `https://altcampus.io` and copy request, response and general headers into answer.js.
 
